@@ -19,12 +19,14 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../ssm-master/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="59" column="30" lean-forward="true" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
+            <state relative-caret-position="428">
+              <caret line="69" column="43" lean-forward="true" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
               <folding>
                 <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
                 <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
                 <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
+                <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
+                <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
                 <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
                 <element signature="n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
               </folding>
@@ -192,7 +194,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553303666765</updated>
-      <workItem from="1553303670299" duration="5108000" />
+      <workItem from="1553303670299" duration="5979000" />
     </task>
     <task id="LOCAL-00001" summary="pom.xml spring 基本依赖包导入">
       <created>1553308638791</created>
@@ -201,11 +203,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553308638792</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="MyBatis依赖包导入">
+      <created>1553309307270</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553309307270</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5108000" />
+    <option name="totallyTimeSpent" value="5979000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -232,7 +241,7 @@
       <window_info anchor="bottom" id="Version Control" order="5" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.45781466" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2680965" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -243,39 +252,6 @@
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="bottom" id="Run" order="9" />
-      <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info id="Image Layers" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info id="Capture Tool" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.32890856" />
-      <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="0" />
-      <window_info anchor="bottom" id="Find" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.45781466" />
-      <window_info anchor="right" id="Database" order="2" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info id="Web" order="4" side_tool="true" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -285,7 +261,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pom.xml spring 基本依赖包导入" />
-    <option name="LAST_COMMIT_MESSAGE" value="pom.xml spring 基本依赖包导入" />
+    <MESSAGE value="MyBatis依赖包导入" />
+    <option name="LAST_COMMIT_MESSAGE" value="MyBatis依赖包导入" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../ssm-master/src/main/webapp/WEB-INF/web.xml">
@@ -297,12 +274,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../ssm-master/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="59" column="30" lean-forward="true" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
+        <state relative-caret-position="428">
+          <caret line="69" column="43" lean-forward="true" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
           <folding>
             <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
             <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
             <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
             <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
             <element signature="n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
           </folding>
