@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ec4fa4b2-12ef-4cae-84d1-40add2e4102d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../ssm-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssm-master/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm-master/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm-master/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm-master/src/main/resources/mybatis-config.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../ssm-master/out/" />
     <ignored path="$PROJECT_DIR$/../ssm-master/target/" />
@@ -16,17 +16,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ssm-master/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+            <state relative-caret-position="397">
+              <caret line="60" column="30" lean-forward="true" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
               <folding>
                 <element signature="e#756#778#0" expanded="true" />
                 <element signature="e#821#838#0" expanded="true" />
                 <element signature="e#878#892#0" expanded="true" />
                 <element signature="e#936#954#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../ssm-master/src/main/resources/mybatis-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -75,6 +84,7 @@
         <option value="$PROJECT_DIR$/../ssm-master/src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml" />
         <option value="$PROJECT_DIR$/../ssm-master/src/main/resources/db.properties" />
         <option value="$PROJECT_DIR$/../ssm-master/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/../ssm-master/src/main/resources/mybatis-config.xml" />
       </list>
     </option>
   </component>
@@ -173,36 +183,6 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ssm-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="ssm-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-jdbc:4.3.18.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="ssm-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-jdbc:4.3.18.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-jdbc-4.3.18.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-jdbc:4.3.18.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-jdbc-4.3.18.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-jdbc:4.3.18.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-jdbc-4.3.18.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
-              <item name="datasource" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -282,7 +262,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553303666765</updated>
-      <workItem from="1553303670299" duration="21571000" />
+      <workItem from="1553303670299" duration="23157000" />
     </task>
     <task id="LOCAL-00001" summary="pom.xml spring 基本依赖包导入">
       <created>1553308638791</created>
@@ -375,14 +355,21 @@
       <option name="project" value="LOCAL" />
       <updated>1553327048355</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="applicationContext.xml  Spring配置 事务控制配置">
+      <created>1553328223672</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1553328223672</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21571000" />
+    <option name="totallyTimeSpent" value="23157000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="416" width="1552" height="455" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
@@ -403,10 +390,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="bottom" id="Run" order="9" />
-      <window_info anchor="bottom" id="Version Control" order="5" visible="true" weight="0.30272108" />
+      <window_info anchor="bottom" id="Version Control" order="5" visible="true" weight="0.13146234" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49829933" visible="true" weight="0.21218206" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49829933" visible="true" weight="0.24530831" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -438,7 +425,8 @@
     <MESSAGE value="applicationContext.xml  Spring配置文件 数据源配置" />
     <MESSAGE value="applicationContext.xml  Spring和Mybatis整合配置" />
     <MESSAGE value="applicationContext.xml  和Mybatis整合配置 扫描mybatis接口的实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="applicationContext.xml  和Mybatis整合配置 扫描mybatis接口的实现" />
+    <MESSAGE value="applicationContext.xml  Spring配置 事务控制配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="applicationContext.xml  Spring配置 事务控制配置" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../ssm-master/pom.xml">
@@ -482,9 +470,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ssm-master/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ssm-master/src/main/resources/db.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -508,14 +493,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../ssm-master/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+        <state relative-caret-position="397">
+          <caret line="60" column="30" lean-forward="true" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
           <folding>
             <element signature="e#756#778#0" expanded="true" />
             <element signature="e#821#838#0" expanded="true" />
             <element signature="e#878#892#0" expanded="true" />
             <element signature="e#936#954#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ssm-master/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
         </state>
       </provider>
     </entry>
