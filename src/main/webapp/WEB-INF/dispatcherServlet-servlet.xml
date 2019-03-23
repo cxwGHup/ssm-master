@@ -2,7 +2,8 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
     <!-- SpringMVC配置文件 网站跳转逻辑控制 配置 -->
     <context:component-scan base-package="com.it.ssm" use-default-filters="false">
@@ -17,5 +18,11 @@
     <!-- 		后缀 -->
     <property name="suffix" value=".jsp"></property>
     </bean>
+
+    <!-- 两个标准配置-->
+    <!--将SpringMVC 不能处理的请求交给Tomcat-->
+    <mvc:default-servlet-handler />
+    <!-- 能支持SpringMVC 更高级功能 JSR303校验  快捷Ajax  动态映射请求...-->
+    <mvc:annotation-driven />
 
 </beans>
