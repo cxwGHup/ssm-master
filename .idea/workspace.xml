@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec4fa4b2-12ef-4cae-84d1-40add2e4102d" name="Default" comment="dispatcherServlet-servlet.xml  SpringMVC配置">
+    <list default="true" id="ec4fa4b2-12ef-4cae-84d1-40add2e4102d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../ssm-master/src/main/resources/db.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ssm-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssm-master/src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm-master/src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm-master/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm-master/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../ssm-master/out/" />
     <ignored path="$PROJECT_DIR$/../ssm-master/target/" />
@@ -16,11 +17,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../ssm-master/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            <state relative-caret-position="97">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+              <folding>
+                <element signature="e#756#778#0" expanded="true" />
+                <element signature="e#821#838#0" expanded="true" />
+                <element signature="e#878#892#0" expanded="true" />
+                <element signature="e#936#954#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -34,11 +41,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dispatcherServlet-servlet.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dispatcherServlet-servlet.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ssm-master/src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+            <state relative-caret-position="410">
+              <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ssm-master/src/main/resources/db.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -65,9 +81,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/../ssm-master/pom.xml" />
-        <option value="$PROJECT_DIR$/../ssm-master/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/../ssm-master/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/../ssm-master/src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml" />
+        <option value="$PROJECT_DIR$/../ssm-master/src/main/resources/db.properties" />
+        <option value="$PROJECT_DIR$/../ssm-master/src/main/resources/applicationContext.xml" />
       </list>
     </option>
   </component>
@@ -104,10 +121,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-77" />
-    <option name="y" value="247" />
+    <option name="x" value="-18" />
+    <option name="y" value="527" />
     <option name="width" value="1940" />
-    <option name="height" value="884" />
+    <option name="height" value="569" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -245,7 +262,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553303666765</updated>
-      <workItem from="1553303670299" duration="17686000" />
+      <workItem from="1553303670299" duration="18859000" />
     </task>
     <task id="LOCAL-00001" summary="pom.xml spring 基本依赖包导入">
       <created>1553308638791</created>
@@ -310,11 +327,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553323537432</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="dispatcherServlet-servlet.xml  SpringMVC配置 更高级配置">
+      <created>1553324199098</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1553324199098</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17686000" />
+    <option name="totallyTimeSpent" value="18859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -369,7 +393,8 @@
     <MESSAGE value="Web.xml  字符编码过滤器" />
     <MESSAGE value="Web.xml  使用REST风格的url 过滤器配置" />
     <MESSAGE value="dispatcherServlet-servlet.xml  SpringMVC配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="dispatcherServlet-servlet.xml  SpringMVC配置" />
+    <MESSAGE value="dispatcherServlet-servlet.xml  SpringMVC配置 更高级配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="dispatcherServlet-servlet.xml  SpringMVC配置 更高级配置" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../ssm-master/pom.xml">
@@ -391,13 +416,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../ssm-master/src/main/resources.applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ssm-master/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/4.3.18.RELEASE/spring-web-4.3.18.RELEASE.jar!/org/springframework/web/filter/CharacterEncodingFilter.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -422,8 +440,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../ssm-master/src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        <state relative-caret-position="410">
+          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ssm-master/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ssm-master/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding>
+            <element signature="e#756#778#0" expanded="true" />
+            <element signature="e#821#838#0" expanded="true" />
+            <element signature="e#878#892#0" expanded="true" />
+            <element signature="e#936#954#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
