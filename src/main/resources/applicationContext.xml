@@ -33,5 +33,10 @@
         <!--指定Mybatis mapper文件位置-->
         <property name="mapperLocations" value="classpath:mapper/*.xml"/>
     </bean>
+    <!--配置扫描器，将mybatis接口的实现加入到ioc容器-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!--扫描所有dao接口的实现，加入到ioc容器-->
+        <property name="basePackage" value="com.it.ssm.dao"/>
+    </bean>
 
 </beans>
