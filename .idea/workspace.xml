@@ -19,15 +19,16 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../ssm-master/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="69" column="43" lean-forward="true" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
+            <state relative-caret-position="408">
+              <caret line="94" column="18" lean-forward="true" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
               <folding>
                 <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
                 <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
                 <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
                 <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
                 <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
+                <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
+                <element signature="n#dependency#6;n#dependencies#0;n#project#0;n#!!top" />
                 <element signature="n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
               </folding>
             </state>
@@ -194,7 +195,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553303666765</updated>
-      <workItem from="1553303670299" duration="5979000" />
+      <workItem from="1553303670299" duration="7128000" />
     </task>
     <task id="LOCAL-00001" summary="pom.xml spring 基本依赖包导入">
       <created>1553308638791</created>
@@ -210,11 +211,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553309307270</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="pom.xml 数据库连接池 驱动  jar包引入">
+      <created>1553310177606</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1553310177606</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5979000" />
+    <option name="totallyTimeSpent" value="7128000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -262,7 +270,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pom.xml spring 基本依赖包导入" />
     <MESSAGE value="MyBatis依赖包导入" />
-    <option name="LAST_COMMIT_MESSAGE" value="MyBatis依赖包导入" />
+    <MESSAGE value="pom.xml 数据库连接池 驱动  jar包引入" />
+    <option name="LAST_COMMIT_MESSAGE" value="pom.xml 数据库连接池 驱动  jar包引入" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../ssm-master/src/main/webapp/WEB-INF/web.xml">
@@ -274,15 +283,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../ssm-master/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="69" column="43" lean-forward="true" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
+        <state relative-caret-position="408">
+          <caret line="94" column="18" lean-forward="true" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
           <folding>
             <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
             <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
             <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
             <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
             <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#6;n#dependencies#0;n#project#0;n#!!top" />
             <element signature="n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
           </folding>
         </state>
