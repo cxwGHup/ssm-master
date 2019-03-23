@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec4fa4b2-12ef-4cae-84d1-40add2e4102d" name="Default" comment="">
+    <list default="true" id="ec4fa4b2-12ef-4cae-84d1-40add2e4102d" name="Default" comment="mybatis-config.xml  全局配置">
+      <change afterPath="$PROJECT_DIR$/../ssm-master/src/main/resources/sql/ssm_master.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ssm-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssm-master/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm-master/src/main/resources/mybatis-config.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../ssm-master/out/" />
     <ignored path="$PROJECT_DIR$/../ssm-master/target/" />
@@ -14,13 +14,27 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ssm-master/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="397">
-              <caret line="60" column="30" lean-forward="true" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
+              <caret line="60" column="30" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
               <folding>
                 <element signature="e#756#778#0" expanded="true" />
                 <element signature="e#821#838#0" expanded="true" />
@@ -31,11 +45,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ssm_master.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../ssm-master/src/main/resources/sql/ssm_master.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ssm-master/src/main/resources/mybatis-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            <state relative-caret-position="284">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -44,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/../ssm-master/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="177">
-              <caret line="54" column="52" lean-forward="true" selection-start-line="54" selection-start-column="2" selection-end-line="54" selection-end-column="52" />
+              <caret line="54" column="52" selection-start-line="54" selection-start-column="2" selection-end-line="54" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -53,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/../ssm-master/src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="424">
-              <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -85,6 +108,7 @@
         <option value="$PROJECT_DIR$/../ssm-master/src/main/resources/db.properties" />
         <option value="$PROJECT_DIR$/../ssm-master/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/../ssm-master/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/../ssm-master/src/main/resources/sql/ssm_master.sql" />
       </list>
     </option>
   </component>
@@ -121,14 +145,15 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-13" />
-    <option name="y" value="61" />
+    <option name="x" value="-5" />
+    <option name="y" value="116" />
     <option name="width" value="1940" />
-    <option name="height" value="569" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="true" />
       <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
@@ -159,13 +184,6 @@
               <item name="ssm-master" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -173,15 +191,8 @@
               <item name="ssm-master" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -262,7 +273,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553303666765</updated>
-      <workItem from="1553303670299" duration="23157000" />
+      <workItem from="1553303670299" duration="24628000" />
     </task>
     <task id="LOCAL-00001" summary="pom.xml spring 基本依赖包导入">
       <created>1553308638791</created>
@@ -362,11 +373,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553328223672</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="mybatis-config.xml  全局配置">
+      <created>1553329941351</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1553329941351</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23157000" />
+    <option name="totallyTimeSpent" value="24628000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -378,7 +396,7 @@
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="0" />
-      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Database" order="2" visible="true" weight="0.3297587" />
       <window_info id="Structure" order="6" sideWeight="0.5017007" side_tool="true" weight="0.2124665" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -426,7 +444,8 @@
     <MESSAGE value="applicationContext.xml  Spring和Mybatis整合配置" />
     <MESSAGE value="applicationContext.xml  和Mybatis整合配置 扫描mybatis接口的实现" />
     <MESSAGE value="applicationContext.xml  Spring配置 事务控制配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="applicationContext.xml  Spring配置 事务控制配置" />
+    <MESSAGE value="mybatis-config.xml  全局配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="mybatis-config.xml  全局配置" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../ssm-master/pom.xml">
@@ -466,7 +485,7 @@
     <entry file="file://$PROJECT_DIR$/../ssm-master/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
-          <caret line="54" column="52" lean-forward="true" selection-start-line="54" selection-start-column="2" selection-end-line="54" selection-end-column="52" />
+          <caret line="54" column="52" selection-start-line="54" selection-start-column="2" selection-end-line="54" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -480,7 +499,7 @@
     <entry file="file://$PROJECT_DIR$/../ssm-master/src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
-          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -491,10 +510,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../ssm-master/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../ssm-master/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
-          <caret line="60" column="30" lean-forward="true" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
+          <caret line="60" column="30" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
           <folding>
             <element signature="e#756#778#0" expanded="true" />
             <element signature="e#821#838#0" expanded="true" />
@@ -504,10 +530,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ssm-master/src/main/resources/mybatis-config.xml">
+    <entry file="file://$PROJECT_DIR$/../ssm-master/src/main/resources/sql/ssm_master.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        <state relative-caret-position="76">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
         </state>
       </provider>
     </entry>
