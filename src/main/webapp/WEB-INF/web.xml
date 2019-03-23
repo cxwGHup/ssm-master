@@ -4,4 +4,16 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+
+  <!--1.启动Spring容器-->
+  <!--项目启动加载 类路径下 Spring配置文件 applicationContext.xml-->
+  <context-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value> classpath:applicationContext.xml</param-value>
+  </context-param>
+  <!-- Spring Listener -->
+  <listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
+
 </web-app>
