@@ -25,4 +25,13 @@
 
     </bean>
 
+    <!--Spring 和Mybatis 整合配置-->
+    <bean id="sessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!--指定Mybatis全局配置文件-->
+        <property name="configLocation" value="classpath*:mybatis-config.xml"/>
+        <property name="dataSource" ref="dataSource" />
+        <!--指定Mybatis mapper文件位置-->
+        <property name="mapperLocations" value="classpath:mapper/*.xml"/>
+    </bean>
+
 </beans>
