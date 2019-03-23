@@ -19,7 +19,33 @@
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
 
+  <!-- 引入项目依赖jar包 -->
+  <!-- SpringMVC  spring-->
+
   <dependencies>
+    <!-- Spring Web Mvc -->
+    <!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-webmvc</artifactId>
+      <version>4.3.18.RELEASE</version>
+    </dependency>
+    <!--spring jdbc-->
+    <!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-jdbc</artifactId>
+      <version>4.3.18.RELEASE</version>
+    </dependency>
+    <!--spring aspect 面向切面编程-->
+    <!-- https://mvnrepository.com/artifact/org.springframework/spring-aspects -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-aspects</artifactId>
+      <version>4.3.18.RELEASE</version>
+    </dependency>
+
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
