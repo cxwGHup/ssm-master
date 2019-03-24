@@ -6,6 +6,10 @@
 <generatorConfiguration>
 
     <context id="DB2Tables" targetRuntime="MyBatis3">
+        <!--关闭注释-->
+        <commentGenerator>
+            <property name="suppressAllComments" value="true" />
+        </commentGenerator>
 
         <!--配置数据库连接-->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
@@ -39,11 +43,6 @@
         <table tableName="tbl_emp" domainObjectName="Employee"></table>
         <table tableName="tbl_dept" domainObjectName="Department"></table>
 
-        <!--关闭注释-->
-        <!--
-        <commentGenerator>
-            <property name="suppressAllComments" value="true" />
-        </commentGenerator>
-        -->
-    </context>
+      </context>
+
 </generatorConfiguration>

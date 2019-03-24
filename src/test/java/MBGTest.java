@@ -13,6 +13,7 @@ import java.util.List;
 /**
  * @author
  * @date
+ * 参考 http://www.mybatis.org/generator/ 配置
  * 该类为MyBatis逆向工程类
  * 结合mbg.xml文件 生成
  */
@@ -30,6 +31,6 @@ public class MBGTest {
         System.out.println("逆向工程执行完毕！！！！");
 
     }
- 
+
 
 }
