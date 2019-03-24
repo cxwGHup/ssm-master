@@ -10,6 +10,16 @@ public class Employee {
     private String email;
 
     private Integer dId;
+    //查询员工附带部门信息
+    private  Department department;
+
+    public Department getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(Department department) {
+        this.department = department;
+    }
 
     public Integer getEmpId() {
         return empId;
