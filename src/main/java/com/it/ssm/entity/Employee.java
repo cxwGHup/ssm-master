@@ -12,6 +12,17 @@ public class Employee {
     private Integer dId;
     //查询员工附带部门信息
     private  Department department;
+    //构造
+    public Employee() {
+    }
+
+    public Employee(Integer empId, String empName, String gender, String email, Integer dId) {
+        this.empId = empId;
+        this.empName = empName;
+        this.gender = gender;
+        this.email = email;
+        this.dId = dId;
+    }
 
     public Department getDepartment() {
         return department;
