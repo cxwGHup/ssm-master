@@ -1,6 +1,7 @@
 import com.it.ssm.dao.DepartmentMapper;
 
 
+import com.it.ssm.entity.Department;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +17,8 @@ public class MapperTest {
     @Test
     public void testCRUD(){
         System.out.println(departmentMapper);
+        departmentMapper.insertSelective(new Department(null,"开发部"));
+        System.out.println("操作成功");
 
 
 
